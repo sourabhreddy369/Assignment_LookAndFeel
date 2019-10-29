@@ -49,3 +49,30 @@ li a {
     .center .icon {
         display: none;
     }
+
+.myTable {
+    border: 3px solid #808080;
+    border-collapse: collapse;
+}
+
+    .myTable td, .myTable th {
+        border: 1px solid #ddd;
+        padding: 12px;
+    }
+
+    .myTable tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .myTable tr:hover {
+        background-color: #ddd;
+    }
+
+
+    .myTable th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
